@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <MultiSelectListPreference
+        android:key="sort_multilist"
+        android:title="Sorting fields"
+        android:summary="Click to select the sort fields"
+        android:dialogTitle="Select sort field"
+        android:entries="@array/sort_by"
+        android:entryValues="@array/sort_by"
+        app:iconSpaceReserved="false"
+        />
+    <DropDownPreference
+        android:key="order_dropdown"
+        android:title="Order"
+        android:summary="Click to select the order"
+        app:iconSpaceReserved="false"
+        android:entries="@array/order_by"
+        android:entryValues="@array/order_by"
+        app:useSimpleSummaryProvider="true"
+        />
+    <ListPreference
+        android:key="db_impl_multilist"
+        android:title="Database implementation"
+        android:summary="Click to select the database implementation"
+        android:dialogTitle="Select database implementation"
+        android:entries="@array/db_impl"
+        android:entryValues="@array/db_impl"
+        app:iconSpaceReserved="false"
+        app:useSimpleSummaryProvider="true"
+        app:defaultValue="@string/room_impl_name"
+        />
+</PreferenceScreen>

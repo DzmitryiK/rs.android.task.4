@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Animals</string>
+    <string name="action_settings">Sorting settings</string>
+    <string name="action_db_impl">Room</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="animal_name">Animal name</string>
+    <string name="animal_age_label">Age:</string>
+    <string name="animal_age_value">AgeValue</string>
+    <string name="animal_breed_label">Breed:</string>
+    <string name="animal_breed_value">BreedValue</string>
+    <string name="textInput_name_hint">Name</string>
+    <string name="btn_insert">Insert</string>
+    <string name="btn_edit">Edit</string>
+    <string name="textInput_breed_hint">Breed</string>
+    <string name="textInput_age_hint">Age</string>
+
+    <string-array name="sort_by">
+        <item>Name</item>
+        <item>Age</item>
+        <item>Breed</item>
+    </string-array>
+    <string-array name="order_by">
+        <item>Ascending</item>
+        <item>Descending</item>
+    </string-array>
+    <string-array name="db_impl">
+        <item>@string/room_impl_name</item>
+        <item>@string/cursor_impl_name</item>
+    </string-array>
+
+    <string name="room_impl_name">Room</string>
+    <string name="cursor_impl_name">Cursor</string>
+    <string name="update_animal_button_descr">Update animal button</string>
+    <string name="delete_animal_button_descr">Delete animal button</string>
+
+    <string name="empty_name_error">Empty name not allowed</string>
+    <string name="negative_age_error">Only positive values allowed up to 2 billion years</string>
+    <string name="empty_breed_error">Empty breed not allowed</string>
+    <string name="duplicate_error">This Animal is already exist!</string>
+    <string name="fab_descr">Add new animal</string>
+    <string name="fragment_edit_title">Edit animal</string>
+</resources>
